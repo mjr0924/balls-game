@@ -69,3 +69,7 @@ input.addEventListener('input',() => {
         document.body.style.background ='#ff6b81'
     }
 })
+window.addEventListener('resize',() => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+})
