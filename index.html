@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
-        <label for="input-textt">Please specify the number of balls?</label>
-        <input type="number" class="input" id="input-text">
-    </form>
+    <div class="d-flex">
+        <form action="">
+            <div>
+                <label for="input-textt">Please specify the number of balls?</label>
+                <input type="number" class="input" id="input-text">
+            </div>
+            <button onclick="location.reload();" class="restart">restart</button>
+        </form>
+        
+    </div>
     <canvas></canvas>
     
 

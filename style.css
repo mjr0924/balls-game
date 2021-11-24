@@ -6,7 +6,7 @@
 form{
     padding: 1rem 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: cornflowerblue;
 }
@@ -16,4 +16,12 @@ form input{
     border-radius: 10px;
     border: 1px solid rgb(63, 62, 62);
     outline: none;
+}
+button.restart{
+    padding: 0.5rem 2rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
